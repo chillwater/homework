@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 06 Jul 2022 00:05:14 +0800
+Source: hello
+Binary: hello
+Architecture: amd64
+Version: 2.10-2ubuntu2.1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: chillwater <chillwater@chillwater-VirtualBox>
+Description:
+ hello      - example package based on GNU hello
+Changes:
+ hello (2.10-2ubuntu2.1) UNRELEASED; urgency=medium
+ .
+   * Non-maintainer upload.
+   * Add requested testing.sh script, and install file, also included postinst script
+Checksums-Sha1:
+ 0bbc1c84b2183a27350ca8c9ecfd636d66d4402f 35388 hello-dbgsym_2.10-2ubuntu2.1_amd64.ddeb
+ 4dd5acfafa8cbd48f80571ba8f0a51bc7538fdfc 5576 hello_2.10-2ubuntu2.1_amd64.buildinfo
+ b6ebeb64db693d2ff5a7f51d5c83500274460f26 52436 hello_2.10-2ubuntu2.1_amd64.deb
+Checksums-Sha256:
+ 2bcd50cc13d2971da2c18a96f4518e873f65b846726660a2e29d87a9602c687a 35388 hello-dbgsym_2.10-2ubuntu2.1_amd64.ddeb
+ 596f8d5ec957ee39492489b856d03c063ee8663e125e5d73458836087de90823 5576 hello_2.10-2ubuntu2.1_amd64.buildinfo
+ 2017285eb5884dd244f8ce2a6aedb2f8f9c57f5dcad102117d92dcc10deff3f9 52436 hello_2.10-2ubuntu2.1_amd64.deb
+Files:
+ 1d4eaf69fee3ee5beaff02ab7793d4de 35388 debug optional hello-dbgsym_2.10-2ubuntu2.1_amd64.ddeb
+ 88f6a2d0221513bfa9c1943ea44314a0 5576 devel optional hello_2.10-2ubuntu2.1_amd64.buildinfo
+ dfaf577ee8c0476076a533803cb80b37 52436 devel optional hello_2.10-2ubuntu2.1_amd64.deb
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
